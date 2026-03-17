@@ -19,7 +19,7 @@ span.special {
 	color: lightblue;
 	}
 
-div {
+div.boxed {
 	border: 2px solid white;
 	padding: 15px;
 }
