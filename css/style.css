@@ -10,12 +10,9 @@ a {
   color: lightskyblue;
 }
 
-footer {
-    position: fixed;
-    bottom: 20px;
-    height: 30px;
-    width: 640px;
-	background-color: black;
+div {
+	border: 2px solid white;
+	padding: 15px;
 }
 
 h1 {
