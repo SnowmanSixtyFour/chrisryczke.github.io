@@ -3,12 +3,12 @@
 
 Hello! If you're here, that means you're viewing the source code of my portfolio.
 
-Cool, eh?
+Below are the files for each page.
 
 ## Pages
-[index.html](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/tree/main/index.html) | The home page of the website.
+[index.html](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/index.html) | The home page of the website.
 
-[socialmedia.html](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/tree/main/pages/socialmedia.html) | An explanation of my online persona.
+[socials.html](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/socials.html) | An explanation of my online persona.
 
 ### Other
-[404.html](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/tree/main/404.html) | The error page. (Page cannot be found)
+[404.html](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/404.html) | The error page. (Page cannot be found)
