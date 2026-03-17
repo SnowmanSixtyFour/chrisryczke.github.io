@@ -2,7 +2,20 @@ body {
   font-family: sans-serif;
   width: 640px;
   margin: 0 auto;
-  background-color: lightgray;
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: lightskyblue;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    height: 30px;
+    width: 640px;
+	background-color: black;
 }
 
 h1 {
