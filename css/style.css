@@ -10,6 +10,14 @@ a {
   color: lightskyblue;
 }
 
+h1.special {
+	color: lightblue;
+	}
+
+span.special {
+	color: lightblue;
+	}
+
 div {
 	border: 2px solid white;
 	padding: 15px;
