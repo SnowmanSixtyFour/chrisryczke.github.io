@@ -1,8 +1,5 @@
-#Redirect pages/socialmedia to socials
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^chrisryczke.com
-RewriteRule ^chrisryczke.com/socials?$ chrisryczke.com/pages/socialmedia.html
+RewriteEngine on
+Options +FollowSymlinks -MultiViews
 
-# Hide .html file extension
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+# Redirect chrisryczke.com to chrisryczke.com/index.html
+RewriteRule ^$ /index.html [R,L]
