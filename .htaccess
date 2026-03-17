@@ -1,5 +1,0 @@
-RewriteEngine on
-Options +FollowSymlinks -MultiViews
-
-# Redirect chrisryczke.com to chrisryczke.com/index.html
-RewriteRule ^$ /index.html [R,L]
