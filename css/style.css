@@ -1,3 +1,22 @@
+#topnav {
+  background-color: black;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.topnav-fixed {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	text-align: center;
+	margin: 0 auto;
+	
+	/* Box */
+	width: 638px;
+	border: 2px solid white;
+}
+
 body {
   font-family: sans-serif;
   background-color: black;
