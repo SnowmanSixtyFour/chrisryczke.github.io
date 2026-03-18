@@ -12,3 +12,8 @@ Below are the files for each page.
 
 ### Other
 [404.html](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/404.html) | The error page. (Page cannot be found)
+
+## Files
+[style.css](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/css/style.css) | The website's style and classes.
+
+[script.js](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/js/script.js) | The JavaScript code of the website.
