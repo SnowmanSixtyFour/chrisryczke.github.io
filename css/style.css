@@ -4,6 +4,10 @@ body {
   color: white;
 }
 
+div.ascii {
+	text-align: center;
+}
+
 div.main {
   font-family: sans-serif;
   width: 640px;
