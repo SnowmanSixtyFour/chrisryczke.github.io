@@ -24,13 +24,13 @@ img.rounded {
 	border-radius: 30px;
 }
 
-p.comment {
-	color: lightblue;
-	font-size: 14px;
+p.codeComment:before {
+  content: "// ";
 }
 
-p.comment:before {
-  content: "// ";
+p.codeComment {
+	color: lightblue;
+	font-size: 14px;
 }
 
 span.special {
