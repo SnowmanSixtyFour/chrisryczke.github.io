@@ -29,7 +29,7 @@ window.onscroll = function() {scrollFunction()};
 var navBar = document.getElementById("topnav");
 
 function scrollFunction() {
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
 	  navBar.classList.add("topnav-fixed");
   } else {
 	  navBar.classList.remove("topnav-fixed");
