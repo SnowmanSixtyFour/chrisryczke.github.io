@@ -10,6 +10,10 @@ a {
   color: lightskyblue;
 }
 
+img.rounded {
+	border-radius: 30px;
+}
+
 p.whisper {
 	color: lightblue;
 	font-size: 14px;
