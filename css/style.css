@@ -1,5 +1,11 @@
 body {
   font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+div.main {
+  font-family: sans-serif;
   width: 640px;
   margin: 0 auto;
   background-color: black;

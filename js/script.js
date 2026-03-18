@@ -1,5 +1,5 @@
 let siteHeader = `
-<h2 align="center"><a href="index#About">About Me</a> | <a href="index#Projects">Projects</a> | <a href="./socials">Social Media</a> | <a href="index#Contacts">Contacts</a></h2>
+<h2 align="center"><a href="https://chrisryczke.com#About">About Me</a> | <a href="https://chrisryczke.com#Projects">Projects</a> | <a href="./socials">Social Media</a> | <a href="https://chrisryczke.com#Contacts">Contacts</a></h2>
 `;
 let siteFooter = `
 <footer>
