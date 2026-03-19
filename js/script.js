@@ -24,14 +24,17 @@ function copyUrl() {
   alert("Copied this page to the clipboard!");
 }
 
-// Move Navbar with Scroll
-window.onscroll = function() {scrollFunction()};
-var navBar = document.getElementById("topnav");
+// If on Desktop
+if (window.matchMedia("(min-width: 768px)").matches) {
+	// Move Navbar with Scroll
+	window.onscroll = function() {scrollFunction()};
+	var navBar = document.getElementById("topnav");
 
-function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-	  navBar.classList.add("topnav-fixed");
-  } else {
-	  navBar.classList.remove("topnav-fixed");
-  }
-} 
+	function scrollFunction() {
+	  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+		  navBar.classList.add("topnav-fixed");
+	  } else {
+		  navBar.classList.remove("topnav-fixed");
+	  }
+	} 
+}
