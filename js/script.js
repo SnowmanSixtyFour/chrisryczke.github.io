@@ -31,7 +31,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 	var navBar = document.getElementById("topnav");
 
 	function scrollFunction() {
-	  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+	  if (document.body.scrollTop > 315 || document.documentElement.scrollTop > 315) {
 		  navBar.classList.add("topnav-fixed");
 	  } else {
 		  navBar.classList.remove("topnav-fixed");
