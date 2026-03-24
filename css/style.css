@@ -64,3 +64,16 @@ div.boxed {
 h1 {
   text-align: center;
 }
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  font-size: 28px;
+  display: inline-block;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 2.5rem;
+}

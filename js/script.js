@@ -1,6 +1,11 @@
 let siteHeader = `
-<div id='topnav'>
-<h2 align="center"><a href="https://chrisryczke.com#About">About Me</a> | <a href="https://chrisryczke.com#Projects">Projects</a> | <a href="./socials">Social Media</a> | <a href="https://chrisryczke.com#Contacts">Contacts</a></h2>
+<div id='topnav' align="center">
+<ul class='list-inline'>
+	<li class="list-inline-item"><a href="https://chrisryczke.com#About">About Me</a></li>
+	<li class="list-inline-item"><a href="https://chrisryczke.com#Projects">Projects</a></li>
+	<li class="list-inline-item"><a href="./socials">Social Media</a></li>
+	<li class="list-inline-item"><a href="https://chrisryczke.com#Contacts">Contacts</a></li>
+</ul>
 </div>
 `;
 let siteFooter = `
