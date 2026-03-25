@@ -4,6 +4,19 @@
   list-style-type: none;
 }
 
+button {
+	font-family: sans-serif;
+	font-size: 16px;
+	text-decoration-line: underline;
+	
+	cursor: pointer;
+	
+	background-color: black;
+	color: lightskyblue;
+	
+	border: none;
+}
+
 .topnav-fixed {
 	top: 0;
 	left: 0;

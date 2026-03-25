@@ -18,7 +18,8 @@ let siteFooter = `
 document.querySelector('#siteHeader').insertAdjacentHTML('beforeend', siteHeader);
 document.querySelector('#siteFooter').insertAdjacentHTML('beforeend', siteFooter);
 
-function copyUrl() {
+function copyUrl()
+{
   // Website URL
   let url = "https://www.chrisryzcke.com";
 
@@ -42,4 +43,10 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 		  navBar.classList.remove("topnav-fixed");
 	  }
 	} 
+}
+
+function getResume()
+{
+	// Alert WIP
+	alert("Coming soon!");
 }
