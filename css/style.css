@@ -71,7 +71,6 @@ h1 {
 }
 
 .list-inline-item {
-  font-size: 28px;
   display: inline-block;
 }
 .list-inline-item:not(:last-child) {
