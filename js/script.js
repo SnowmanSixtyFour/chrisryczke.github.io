@@ -44,9 +44,3 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 	  }
 	} 
 }
-
-function getResume()
-{
-	// Alert WIP
-	alert("Coming soon!");
-}
