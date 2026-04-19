@@ -1,5 +1,7 @@
 # Chris's Portfolio
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+<a href="https://opensource.org/license/mit">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" width="100" alt="MIT License">
+</a>
 
 Hello! If you're here, that means you're viewing the source code of my portfolio.
 
@@ -17,3 +19,5 @@ Below are the files for each page.
 [style.css](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/css/style.css) | The website's style and classes.
 
 [script.js](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/js/script.js) | The JavaScript code of the website.
+# Copyright
+Copyright (c) 2026 Snowman64, under the [MIT License](https://github.com/SnowmanSixtyFour/BetweenTheLines/blob/main/LICENSE).
