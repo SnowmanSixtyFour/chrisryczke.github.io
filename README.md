@@ -20,4 +20,4 @@ Below are the files for each page.
 
 [script.js](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/js/script.js) | The JavaScript code of the website.
 # Copyright
-Copyright (c) 2026 Snowman64, under the [MIT License](https://github.com/SnowmanSixtyFour/BetweenTheLines/blob/main/LICENSE).
+Copyright (c) 2026 Snowman64, under the [MIT License](https://github.com/SnowmanSixtyFour/chrisryczke.github.io/blob/main/LICENSE).
