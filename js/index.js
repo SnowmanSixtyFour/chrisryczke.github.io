@@ -13,6 +13,7 @@ C   C H   H R  R   I      S       R  R    Y   C   C  Z    K  K  E
 // Properties
 
 document.body.style.userSelect = 'none'; // Disable Text Selecting
+document.body.style.scale = "1.0"; // Website Size
 
 // Style
 
@@ -36,9 +37,9 @@ separator.style.backgroundColor = 'white';
 
 // Option
 
-var op = document.createElement('div');
-op.style.display = "flex";
-op.style.whiteSpace = "nowrap";
+var footer = document.createElement('div');
+footer.style.display = "flex";
+footer.style.whiteSpace = "nowrap";
 
 var optionPrefix = document.createElement('span');
 
@@ -62,8 +63,9 @@ optionPrefix.innerHTML = "Option ===> ";
 document.body.appendChild(separator);
 document.body.appendChild(header);
 document.body.appendChild(separator.cloneNode(true));
-document.body.appendChild(op);
 
-// Option
-op.appendChild(optionPrefix);
-op.appendChild(option);
+document.body.appendChild(footer);
+
+// Footer
+footer.appendChild(optionPrefix);
+footer.appendChild(option);
