@@ -23,9 +23,6 @@ document.body.style.color = "white"; // Text Colour
 
 document.body.style.textAlign = "center"; // Align Text to Center
 
-// Events
-
-
 // Initialize Objects
 
 // Header
@@ -38,6 +35,11 @@ separator.style.height = '1px';
 separator.style.backgroundColor = 'white';
 
 // Option
+
+var op = document.createElement('div');
+op.style.display = "flex";
+op.style.whiteSpace = "nowrap";
+
 var optionPrefix = document.createElement('span');
 
 var option = document.createElement('input');
@@ -45,13 +47,14 @@ var option = document.createElement('input');
 option.type = "text";
 option.id = "option";
 option.style.borderBottom = "1px solid white"; // Line
+option.style.width = "100%"; // Set Width to Size
 
 // Set Objects
 
 header.innerHTML = headerText;
 header.style.whiteSpace = "pre";
 
-optionPrefix.innerHTML = "Option ";
+optionPrefix.innerHTML = "Option ===> ";
 
 // Display Objects
 
@@ -59,7 +62,8 @@ optionPrefix.innerHTML = "Option ";
 document.body.appendChild(separator);
 document.body.appendChild(header);
 document.body.appendChild(separator.cloneNode(true));
+document.body.appendChild(op);
 
 // Option
-document.body.appendChild(optionPrefix);
-document.body.appendChild(option);
+op.appendChild(optionPrefix);
+op.appendChild(option);

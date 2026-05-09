@@ -4,4 +4,5 @@
   outline: none;
   padding: 0;
   color: white;
+  white-space: nowrap;
 }
