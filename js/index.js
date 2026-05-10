@@ -13,8 +13,8 @@ C   C H   H R  R   I      S       R  R    Y   C   C  Z    K  K  E
  CCC  H   H R   R III SSSS        R   R   Y    CCC  ZZZZZ K   K EEEEE`;
 
 let helpText =
-`  F1=Help         F2=Split         F3=Exit              F7=Backward      F8=Forward  
- F10=Actions     F12=Cancel                                                               `;
+`  F1=Help         F2=Split         F3=Exit                  F7=Backward      F8=Forward
+ F10=Actions     F12=Cancel                                                            `;
 
 // --- DOCUMENT ---
 
@@ -23,8 +23,8 @@ let helpText =
 document.body.style.userSelect = 'none'; // Disable Text Selecting
 
 // Website Size
-document.body.style.width = "50%"; // Width
-document.body.style.scale = "1.8"; // Scale
+document.body.style.width = "57%"; // Width
+document.body.style.scale = "1.7"; // Scale
 
 // Fit Elements on Screen
 document.body.style.margin = "auto"; // Margin
