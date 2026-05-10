@@ -15,3 +15,7 @@
 .choice {
   color: aqua;
 }
+
+input {
+  font-family: "terminal";
+}
