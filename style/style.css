@@ -1,0 +1,24 @@
+@font-face { 
+  font-family: "terminal";
+  src: local("BigBlue TerminalPlus"), url('terminal.ttf');
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: white;
+  white-space: nowrap;
+  font-family: "terminal";
+
+  /* Color */
+  border-bottom: 1px solid cyan;
+
+  /* Spacing between Text */
+  margin-left: 15px;
+}
+
+.choice {
+  color: aqua;
+}
