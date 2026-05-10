@@ -145,5 +145,8 @@ document.addEventListener('keydown', function(event) {
         if (option.value === "1") currentPage.innerHTML = page1;
         if (option.value === "2") currentPage.innerHTML = page2;
         if (option.value === "3") currentPage.innerHTML = page3;
+
+        // Reset Option
+        option.value = "";
     }
 })

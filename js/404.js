@@ -51,6 +51,6 @@ document.body.appendChild(notice);
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         // Go to Home
-        window.location.href = "./index";
+        window.location.href = "./";
     }
 })
