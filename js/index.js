@@ -25,6 +25,9 @@ With experience in object-oriented programming and web development, along with b
 Specializing in both front-end and back-end development.
 
 I am still building my skills, currently studying IBM Mainframe and the COBOL language, using the TN 3270 terminal.`
+let page1 = `WIP`;
+let page2 = `WIP`;
+let page3 = `WIP`;
 
 // --- DOCUMENT ---
 
