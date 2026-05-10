@@ -13,7 +13,7 @@ C   C H   H R  R   I      S       R  R    Y   C   C  Z    K  K  E
  CCC  H   H R   R III SSSS        R   R   Y    CCC  ZZZZZ K   K EEEEE`;
 
 let helpText =
-` F1=Help         F2=Split         F3=Exit                 F7=Backward          F8=Forward
+` F1=Help         F2=Split         F3=Exit               F7=Backward        F8=Forward
 F10=Actions     F12=Cancel                                                               `;
 
 // --- DOCUMENT ---
@@ -23,8 +23,8 @@ F10=Actions     F12=Cancel                                                      
 document.body.style.userSelect = 'none'; // Disable Text Selecting
 
 // Website Size
-document.body.style.width = "49%"; // Width
-document.body.style.scale = "2.0"; // Scale
+document.body.style.width = "50%"; // Width
+document.body.style.scale = "1.8"; // Scale
 
 // Fit Elements on Screen
 document.body.style.margin = "auto"; // Margin
@@ -36,7 +36,7 @@ document.body.style.scrollbarWidth = "none";
 
 // Style
 
-document.body.style.fontFamily = "monospace"; // Font
+document.body.style.fontFamily = "terminal"; // Font
 
 document.body.style.backgroundColor = "black"; // BG Colour
 document.body.style.color = "white"; // Text Colour
@@ -92,6 +92,10 @@ var help = document.createElement('p');
 help.innerHTML = helpText;
 help.style.color = "cornflowerblue";
 
+// Copyright
+var copyright = document.createElement('p');
+copyright.innerHTML = `&copy; 2026 Chris Ryczke`;
+
 // Display Objects
 
 document.body.appendChild(menu);
@@ -108,3 +112,5 @@ optionDiv.appendChild(optionPrefix);
 optionDiv.appendChild(option);
 
 document.body.appendChild(help);
+
+document.body.appendChild(copyright);
