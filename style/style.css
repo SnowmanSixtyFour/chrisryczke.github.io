@@ -3,19 +3,19 @@
   src: local("BigBlue TerminalPlus"), url('terminal.ttf');
 }
 
-#option {
+input {
   border: none;
   background: none;
   outline: none;
   padding: 0;
   color: white;
   white-space: nowrap;
+  font-family: "terminal";
+
+  /* Color */
+  border-bottom: 1px solid cyan;
 }
 
 .choice {
   color: aqua;
-}
-
-input {
-  font-family: "terminal";
 }
