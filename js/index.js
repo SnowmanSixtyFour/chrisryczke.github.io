@@ -24,7 +24,7 @@ let page0 =
 With experience in object-oriented programming and web development, along with being fast at keyboard typing, I am a skilled software engineer.
 Specializing in both front-end and back-end development.
 
-I am still building my skills, currently studying IBM Mainframe and the COBOL language, using the IBM 3270 terminal.`
+I am still building my skills, currently studying IBM Mainframe and the COBOL language, using the TN 3270 terminal.`
 
 // --- DOCUMENT ---
 
@@ -95,17 +95,18 @@ optionDiv.style.whiteSpace = "nowrap";
 optionDiv.style.color = "lime";
 
 var optionPrefix = document.createElement('span');
-optionPrefix.innerHTML = "Option ===> ";
+optionPrefix.innerHTML = "Option ===>";
 
 var option = document.createElement('input');
 option.style.width = "100%";
 
-// Help (Fake Keybinds)
+// Help (Fake Options)
 var help = document.createElement('p');
 help.innerHTML = helpText;
 help.style.color = "cornflowerblue";
 
-help.style.display = 'flex'; // Center Text
+help.style.display = 'flex'; // Put Text in Center of Doc
+help.style.justifyContent = 'center'; // Center Text Content
 help.style.textAlign = 'left'; // Align to Left
 
 // Copyright

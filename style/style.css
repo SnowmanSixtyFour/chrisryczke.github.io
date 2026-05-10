@@ -14,6 +14,9 @@ input {
 
   /* Color */
   border-bottom: 1px solid cyan;
+
+  /* Spacing between Text */
+  margin-left: 15px;
 }
 
 .choice {
