@@ -13,8 +13,8 @@ C   C H   H R  R   I      S       R  R    Y   C   C  Z    K  K  E
  CCC  H   H R   R III SSSS        R   R   Y    CCC  ZZZZZ K   K EEEEE`;
 
 let helpText =
-` F1=Help         F2=Split         F3=Exit               F7=Backward        F8=Forward
-F10=Actions     F12=Cancel                                                               `;
+`  F1=Help         F2=Split         F3=Exit              F7=Backward      F8=Forward  
+ F10=Actions     F12=Cancel                                                               `;
 
 // --- DOCUMENT ---
 
