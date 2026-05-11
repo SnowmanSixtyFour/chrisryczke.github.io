@@ -119,4 +119,34 @@ document.addEventListener('keydown', function(event)
         // Reset Option
         option.value = "";
     }
+
+    /* Prevent F Keys from Having Function */
+    if (event.key === 'F1')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F2')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F3')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F7')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F8')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F10')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F12')
+    {
+        event.preventDefault();
+    }
 })

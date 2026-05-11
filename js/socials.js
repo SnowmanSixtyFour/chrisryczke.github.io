@@ -105,12 +105,38 @@ about.appendChild(aboutText2);
 
 document.addEventListener('keydown', function(event)
 {
+    if (event.key === 'F1')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F2')
+    {
+        event.preventDefault();
+    }
+
     /* F3 (Exit) */
     if (event.key === 'F3')
     {
-        event.preventDefault(); /* Prevent F3 Function */
+        event.preventDefault();
 
         // Go to Home
         window.location.href = "./";
+    }
+
+    if (event.key === 'F7')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F8')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F10')
+    {
+        event.preventDefault();
+    }
+    if (event.key === 'F12')
+    {
+        event.preventDefault();
     }
 })
