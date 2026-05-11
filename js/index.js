@@ -19,7 +19,9 @@ F10=Actions     F12=Cancel`;
 let pageHome =
 `Software Engineer`;
 let page0 =
-`I have been fascinated by technology ever since I was a child.
+`<span class=subtitle>About Me</span>
+
+I have been fascinated by technology ever since I was a child.
 
 With experience in object-oriented programming and web development, along with being fast at keyboard typing, I am a skilled software engineer.
 Specializing in both front-end and back-end development.
@@ -114,7 +116,11 @@ document.addEventListener('keydown', function(event)
     if (event.key === 'Enter')
     {
         // Go to Selected Page
-        if (option.value === "0") currentPage.innerHTML = page0;
+        if (option.value === "0")
+        {
+            currentPage.innerHTML = page0; // Display About Me Text
+            currentPage.style.color = "white"; // Set Colour to White
+        }
         if (option.value === "2") window.location.href = "./socials";
 
         // Reset Option

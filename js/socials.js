@@ -58,6 +58,7 @@ var aboutLink = document.createElement('a');
 aboutLink.innerHTML =
 `Minecraft video`;
 aboutLink.href = "https://www.youtube.com/watch?v=9ANnCBZbtYg";
+aboutLink.target = "_blank"; // Open Link in New Window
 
 var aboutText2 = document.createElement('span');
 aboutText2.innerHTML =
