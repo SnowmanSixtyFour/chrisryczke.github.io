@@ -1,0 +1,116 @@
+// --- VARIABLES ---
+
+// Strings
+
+let menuText =
+`Menu      Utilities      Compilers      Options      Status      Help`;
+
+let headerText =
+` SSSSS  NN   NN  OOOOO  WW      WW MM    MM   AAA   NN   NN   666       44   
+SS      NNN  NN OO   OO WW      WW MMM  MMM  AAAAA  NNN  NN  66        444   
+ SSSSS  NN N NN OO   OO WW   W  WW MM MM MM AA   AA NN N NN 666666   44  4   
+     SS NN  NNN OO   OO  WW WWW WW MM    MM AAAAAAA NN  NNN 66   66 44444444 
+ SSSSS  NN   NN  OOOO0    WW   WW  MM    MM AA   AA NN   NN  66666     444   `;
+
+let helpText =
+` F1=Help         F2=Split         F3=Exit               F7=Backward        F8=Forward
+F10=Actions     F12=Cancel`;
+
+let subtitleText =
+`Content Creator`;
+
+// --- DOCUMENT ---
+
+// Initialize Objects
+
+// Above Header (Fake Options)
+var menu = document.createElement('p');
+menu.innerHTML = menuText;
+menu.style.color = "cornflowerblue";
+
+// Header
+var header = document.createElement('p');
+header.innerHTML = headerText;
+header.style.whiteSpace = "pre"; // Prevent Breaking when Window Resized
+
+// Separator
+var separator = document.createElement('div');
+
+separator.style.height = '1px';
+separator.style.backgroundColor = 'cornflowerblue';
+
+// Page
+
+var subtitle = document.createElement('p'); // Page Text
+subtitle.innerHTML = subtitleText;
+
+var about = document.createElement('div');
+about.style.display = "inline";
+
+var aboutText1 = document.createElement('span');
+aboutText1.innerHTML =
+`Snowman64 is my gaming-centered YouTube channel and online persona.
+
+I had begun professionally working on it after my first `;
+
+var aboutLink = document.createElement('a');
+aboutLink.innerHTML =
+`Minecraft video`;
+aboutLink.href = "https://www.youtube.com/watch?v=9ANnCBZbtYg";
+
+var aboutText2 = document.createElement('span');
+aboutText2.innerHTML =
+` released.
+
+Since then, I've made hundreds of videos, gained over 15K subscribers, and had a lot of fun gaming and connecting with my audience.
+
+Fun fact; Snowman64 is the name of both my online persona AND my GitHub account!
+ `;
+
+// Help (Fake Options)
+var help = document.createElement('p');
+help.innerHTML = helpText;
+help.style.color = "cornflowerblue";
+
+help.style.display = 'flex'; // Put Text in Center of Doc
+help.style.justifyContent = 'center'; // Center Text Content
+help.style.textAlign = 'left'; // Align to Left
+
+// Copyright
+var copyright = document.createElement('p');
+copyright.innerHTML = `&copy; 2026 Chris Ryczke`;
+
+// Display Objects
+
+document.body.appendChild(menu);
+
+document.body.appendChild(separator);
+document.body.appendChild(header);
+document.body.appendChild(separator.cloneNode(true));
+
+document.body.appendChild(subtitle);
+document.body.appendChild(about);
+
+document.body.appendChild(separator.cloneNode(true));
+document.body.appendChild(help);
+
+document.body.appendChild(copyright);
+
+// About
+about.appendChild(aboutText1);
+about.appendChild(aboutLink);
+about.appendChild(aboutText2);
+
+// Events
+
+document.addEventListener('keydown', function(event)
+{
+    /* F3 (Exit) */
+    if (event.key === 'F3')
+    {
+        event.preventDefault(); /* Prevent F3 Function */
+
+        // Go to Home
+        window.location.href = "./";
+    }
+})

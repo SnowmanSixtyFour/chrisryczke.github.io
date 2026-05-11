@@ -25,38 +25,8 @@ With experience in object-oriented programming and web development, along with b
 Specializing in both front-end and back-end development.
 
 I am still building my skills, currently studying IBM Mainframe and the COBOL language, using the TN 3270 terminal.`
-let page1 = `WIP`;
-let page2 = `WIP`;
-let page3 = `WIP`;
 
 // --- DOCUMENT ---
-
-// Properties
-
-document.body.style.userSelect = 'none'; // Disable Text Selecting
-
-// Website Size
-document.body.style.width = "50%"; // Width
-document.body.style.scale = "1.8"; // Scale
-
-// Fit Elements on Screen
-document.body.style.margin = "auto"; // Margin
-document.body.style.alignContent = "center"; // Align
-document.body.style.height = "1.5rem"; // Height
-
-// Hide Scroll Bar
-document.body.style.scrollbarWidth = "none";
-
-// Style
-
-document.body.style.fontFamily = "terminal"; // Font
-
-document.body.style.backgroundColor = "black"; // BG Colour
-document.body.style.color = "white"; // Text Colour
-
-document.body.style.textAlign = "center"; // Align Text to Center
-
-document.body.style.whiteSpace = "pre-wrap"; // Allow Multiple Lines in Text
 
 // Initialize Objects
 
@@ -138,13 +108,13 @@ document.body.appendChild(copyright);
 
 // Events
 
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
+document.addEventListener('keydown', function(event)
+{
+    if (event.key === 'Enter')
+    {
         // Go to Selected Page
         if (option.value === "0") currentPage.innerHTML = page0;
-        if (option.value === "1") currentPage.innerHTML = page1;
-        if (option.value === "2") currentPage.innerHTML = page2;
-        if (option.value === "3") currentPage.innerHTML = page3;
+        if (option.value === "2") window.location.href = "./socials";
 
         // Reset Option
         option.value = "";

@@ -1,6 +1,35 @@
+/* Font */
 @font-face { 
   font-family: "terminal";
   src: local("BigBlue TerminalPlus"), url('terminal.ttf');
+}
+
+/* Document */
+body {
+  /* Properties */
+
+  user-select: none; /* Disable Text Selecting */
+
+  /* Size */
+  width: 50%;
+  scale: 1.8;
+
+  /* Fit Elements on Screen */
+  margin: auto;
+  align-content: center;
+  height: 1.5rem;
+
+  scrollbar-width: none; /* Hide Scroll Bar */
+
+  /* Style */
+
+  background-color: black; /* Background Color */
+  color: white; /* Text Colour */
+
+  text-align: center; /* Align Text to Center */
+  white-space: pre-wrap; /* Allow Multiple Lines in Text */
+
+  font-family: terminal; /* Terminal Font */
 }
 
 input {
