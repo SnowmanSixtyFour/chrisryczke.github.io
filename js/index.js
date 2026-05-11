@@ -2,9 +2,6 @@
 
 // Strings
 
-let menuText =
-`Menu      Utilities      Compilers      Options      Status      Help`;
-
 let headerText =
 ` CCC  H   H RRRR  III  SSSS       RRRR  Y   Y  CCC  ZZZZZ K   K EEEEE
 C   C H   H R   R  I  S           R   R  Y Y  C   C    Z  K  K  E    
@@ -13,8 +10,7 @@ C   C H   H R  R   I      S       R  R    Y   C   C  Z    K  K  E
  CCC  H   H R   R III SSSS        R   R   Y    CCC  ZZZZZ K   K EEEEE`;
 
 let helpText =
-` F1=Help         F2=Split         F3=Exit               F7=Backward        F8=Forward
-F10=Actions     F12=Cancel`;
+`F3=Exit`;
 
 let pageHome =
 `Software Engineer`;
@@ -32,10 +28,37 @@ I am still building my skills, currently studying IBM Mainframe and the COBOL la
 
 // Initialize Objects
 
-// Above Header (Fake Options)
-var menu = document.createElement('p');
-menu.innerHTML = menuText;
+// --- Navigator Bar ---
+
+var menu = document.createElement('span');
 menu.style.color = "cornflowerblue";
+menu.innerHTML =
+`
+`;
+
+// About Me
+var aboutButton = document.createElement('a');
+aboutButton.innerHTML = "About Me   ";
+aboutButton.href = "./";
+
+// Projects
+var projectsButton = document.createElement('a');
+projectsButton.innerHTML = "Projects   ";
+projectsButton.href = "./";
+
+// Social Media
+var socialsButton = document.createElement('a');
+socialsButton.innerHTML = "Social Media   ";
+socialsButton.href = "./socials";
+
+// Contacts
+var contactsButton = document.createElement('a');
+contactsButton.innerHTML =
+`Contacts
+ `;
+contactsButton.href = "./";
+
+// ---
 
 // Header
 var header = document.createElement('p');
@@ -93,6 +116,11 @@ copyright.innerHTML = `&copy; 2026 Chris Ryczke`;
 
 document.body.appendChild(menu);
 
+menu.appendChild(aboutButton);
+menu.appendChild(projectsButton);
+menu.appendChild(socialsButton);
+menu.appendChild(contactsButton);
+
 document.body.appendChild(separator);
 document.body.appendChild(header);
 document.body.appendChild(separator.cloneNode(true));
@@ -139,6 +167,9 @@ document.addEventListener('keydown', function(event)
     if (event.key === 'F3')
     {
         event.preventDefault();
+
+        // Leave Website
+        window.close();
     }
     if (event.key === 'F7')
     {

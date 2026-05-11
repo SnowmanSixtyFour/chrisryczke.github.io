@@ -2,9 +2,6 @@
 
 // Strings
 
-let menuText =
-`Menu      Utilities      Compilers      Options      Status      Help`;
-
 let headerText =
 ` SSSSS  NN   NN  OOOOO  WW      WW MM    MM   AAA   NN   NN   666       44   
 SS      NNN  NN OO   OO WW      WW MMM  MMM  AAAAA  NNN  NN  66        444   
@@ -13,8 +10,7 @@ SS      NNN  NN OO   OO WW      WW MMM  MMM  AAAAA  NNN  NN  66        444
  SSSSS  NN   NN  OOOO0    WW   WW  MM    MM AA   AA NN   NN  66666     444   `;
 
 let helpText =
-` F1=Help         F2=Split         F3=Exit               F7=Backward        F8=Forward
-F10=Actions     F12=Cancel`;
+`F3=Exit`;
 
 let subtitleText =
 `Content Creator`;
@@ -23,10 +19,35 @@ let subtitleText =
 
 // Initialize Objects
 
-// Above Header (Fake Options)
-var menu = document.createElement('p');
-menu.innerHTML = menuText;
+// --- Navigator Bar ---
+
+var menu = document.createElement('span');
 menu.style.color = "cornflowerblue";
+menu.innerHTML =
+`
+`;
+
+// About Me
+var aboutButton = document.createElement('a');
+aboutButton.innerHTML = "About Me   ";
+aboutButton.href = "./";
+
+// Projects
+var projectsButton = document.createElement('a');
+projectsButton.innerHTML = "Projects   ";
+projectsButton.href = "./";
+
+// Social Media
+var socialsButton = document.createElement('a');
+socialsButton.innerHTML = "Social Media   ";
+socialsButton.href = "./socials";
+
+// Contacts
+var contactsButton = document.createElement('a');
+contactsButton.innerHTML =
+`Contacts
+ `;
+contactsButton.href = "./";
 
 // Header
 var header = document.createElement('p');
@@ -85,6 +106,11 @@ copyright.innerHTML = `&copy; 2026 Chris Ryczke`;
 // Display Objects
 
 document.body.appendChild(menu);
+
+menu.appendChild(aboutButton);
+menu.appendChild(projectsButton);
+menu.appendChild(socialsButton);
+menu.appendChild(contactsButton);
 
 document.body.appendChild(separator);
 document.body.appendChild(header);

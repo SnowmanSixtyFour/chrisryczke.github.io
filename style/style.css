@@ -32,6 +32,16 @@ body {
   font-family: terminal; /* Terminal Font */
 }
 
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
 input {
   border: none;
   background: none;
