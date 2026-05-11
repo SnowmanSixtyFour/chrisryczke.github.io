@@ -11,8 +11,8 @@ body {
   user-select: none; /* Disable Text Selecting */
 
   /* Size */
-  width: 50%;
-  scale: 1.8;
+  width: min-content;
+  scale: 1.0;
 
   /* Fit Elements on Screen */
   margin: auto;
