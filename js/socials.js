@@ -43,6 +43,7 @@ separator.style.backgroundColor = 'cornflowerblue';
 
 var subtitle = document.createElement('p'); // Page Text
 subtitle.innerHTML = subtitleText;
+subtitle.style.color = "lime";
 
 var about = document.createElement('div');
 about.style.display = "inline";

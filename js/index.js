@@ -50,6 +50,7 @@ separator.style.backgroundColor = 'cornflowerblue';
 
 var currentPage = document.createElement('p'); // Page Text
 currentPage.innerHTML = pageHome;
+currentPage.style.color = "lime";
 
 // Choices
 var choices = document.createElement('p');
