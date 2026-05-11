@@ -38,7 +38,7 @@ menu.innerHTML =
 
 // About Me
 var aboutButton = document.createElement('a');
-aboutButton.innerHTML = "About Me   ";
+aboutButton.innerHTML = "Home   ";
 aboutButton.href = "./";
 
 // Projects
