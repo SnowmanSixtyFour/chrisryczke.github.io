@@ -1,6 +1,8 @@
-<p align="center">
-    <img src="img/logo.png">
-</p>
+<div align="center">
+<a href="https://www.chrisryczke.com/">
+  <img align="center" src="img/logo.png" alt="CHRIS RYCZKE">
+</a>
+</div>
 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
   <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" width="100" alt="GNU General Public License v3.0">
 </a>
