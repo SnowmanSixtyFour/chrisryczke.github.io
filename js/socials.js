@@ -3,11 +3,11 @@
 // Strings
 
 let headerText =
-` SSSSS  NN   NN  OOOOO  WW      WW MM    MM   AAA   NN   NN   666       44   
-SS      NNN  NN OO   OO WW      WW MMM  MMM  AAAAA  NNN  NN  66        444   
- SSSSS  NN N NN OO   OO WW   W  WW MM MM MM AA   AA NN N NN 666666   44  4   
-     SS NN  NNN OO   OO  WW WWW WW MM    MM AAAAAAA NN  NNN 66   66 44444444 
- SSSSS  NN   NN  OOOO0    WW   WW  MM    MM AA   AA NN   NN  66666     444   `;
+`SSSSSSS NN   NN OOOOOOO WW      WW MM    MM AAAAAAA NN   NN 6666666 44  44   
+SS      NNN  NN OO   OO WW      WW MMM  MMM AA   AA NNN  NN 66      44  44   
+SSSSSSS NN N NN OO   OO WW  WW  WW MM MM MM AA   AA NN N NN 6666666 44  44   
+     SS NN  NNN OO   OO WW WWWW WW MM    MM AAAAAAA NN  NNN 66   66 44444444 
+SSSSSSS NN   NN OOOOOOO WWWW  WWWW MM    MM AA   AA NN   NN 6666666    444   `;
 
 let helpText =
 `F3=Exit`;
